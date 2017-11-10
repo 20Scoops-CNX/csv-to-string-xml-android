@@ -42,7 +42,7 @@ for row in reader:
 xml_file_header = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n"
 
 for i in range(0, len(translations)):
-    android_dir = pwd + "/app/src/main/res/value"
+    android_dir = pwd + "/app/src/main/res/values"
     if translations[i] != "en" : 
         android_dir += "-"+translations[i].lower()
     if not os.path.exists(android_dir):
