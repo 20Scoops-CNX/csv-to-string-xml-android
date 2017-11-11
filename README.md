@@ -10,7 +10,7 @@ To satisfy requirements, run the following command:
 
 If you are not using pip in a virtualenv and want to install lxml globally instead, you have to run the above command as admin, e.g. on Linux:
 
-`$sudo  pip install lxml`
+`$ sudo  pip install lxml`
 
 
 Usage
