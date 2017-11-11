@@ -13,7 +13,7 @@ If you are not using pip in a virtualenv and want to install lxml globally inste
 `$ sudo  pip install lxml`
 
 
-Usage
+Usage By Clone Git
 -----
 1. Export path in your `.bash_profile` or `.zshrc` 
 
