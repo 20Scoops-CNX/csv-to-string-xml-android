@@ -27,11 +27,14 @@ Usage By Clone Git
     
     `csv2xml`
 
-    app
-    └── src
-        └── main
-            └── res
-                ├── values
-                │   └── strings.xml
-                └── values-de
-                    └── strings.xml
+
+```
+app
+└── src
+    └── main
+        └── res
+            ├── values
+            │   └── strings.xml
+            └── values-de
+                └── strings.xml
+```
