@@ -12,7 +12,7 @@ path_file_csv = raw_input("Path to CSV file : ")
 reader = csv.reader(open(path_file_csv, "rb"))
 translations = []
 roots = []
-pwd = os.getcwd()
+current_path = os.getcwd()
 
 for row in reader:
     if row[0] == "arbotena":
@@ -42,7 +42,7 @@ for row in reader:
 xml_file_header = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n"
 
 for i in range(0, len(translations)):
-    android_dir = pwd + "/app/src/main/res/values"
+    android_dir = current_path + "/app/src/main/res/values"
     if translations[i] != "en" : 
         android_dir += "-"+translations[i].lower()
     if not os.path.exists(android_dir):
