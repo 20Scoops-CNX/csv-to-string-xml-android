@@ -50,6 +50,6 @@ for i in range(0, len(translations)):
     xml_string = etree.tostring(roots[i], encoding='unicode', method='xml', pretty_print=True, xml_declaration=False)
     pretty_xml_string = xml_file_header
     pretty_xml_string += xml_string 
-    xml_file = open(android_dir + "/string.xml", "w")
+    xml_file = open(android_dir + "/strings.xml", "w")
     xml_file.write(pretty_xml_string.encode('utf-8'))
     xml_file.close()
