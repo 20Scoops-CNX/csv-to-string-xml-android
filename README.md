@@ -19,6 +19,10 @@ Usage
 
     `export PATH=$HOME/directory_your_download_this_project/csv2string-xml-android/bin:$PATH`
 
-2. Generating *.xml files multi language
+2. Go to your directory Android Project
+    
+    `cd AndroidStudio/project_name`
+
+3. Generating *.xml files multi language
     
     `csv2xml`

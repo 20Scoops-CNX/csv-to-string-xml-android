@@ -41,6 +41,8 @@ for row in reader:
 
 xml_file_header = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n"
 
+if current_path != 
+
 for i in range(0, len(translations)):
     android_dir = current_path + "/app/src/main/res/values"
     if translations[i] != "en" : 
