@@ -17,7 +17,7 @@ Usage
 -----
 1. Export path in your `.bash_profile` or `.zshrc` 
 
-    `export PATH=$HOME/directory_your_download/csv2string-xml-android/bin:$PATH`
+    `export PATH=$HOME/directory_your_download_this_project/csv2string-xml-android/bin:$PATH`
 
 2. Generating *.xml files multi language
     
