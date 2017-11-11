@@ -26,3 +26,12 @@ Usage By Clone Git
 3. Generating *.xml files multi language
     
     `csv2xml`
+
+    app
+    └── src
+        └── main
+            └── res
+                ├── values
+                │   └── strings.xml
+                └── values-de
+                    └── strings.xml
