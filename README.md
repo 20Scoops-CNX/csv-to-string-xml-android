@@ -1,5 +1,5 @@
 # csv2string-xml-android [![Build Status](https://travis-ci.org/T-Jedsada/csv2string-xml-android.svg?branch=master)](https://travis-ci.org/T-Jedsada/csv2string-xml-android)
-Python scripts converting csv file to Android strings.xml resources multiple language :)
+Python scripts converting csv file to Android strings.xml resources multiple language 🌈
 
 ![string](./images/banner.png)
 
