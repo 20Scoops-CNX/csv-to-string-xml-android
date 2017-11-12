@@ -29,6 +29,7 @@ Usage By Clone Git
 
 
 ```
+...
 app
 └── src
     └── main
@@ -36,5 +37,9 @@ app
             ├── values
             │   └── strings.xml
             └── values-de
-                └── strings.xml
+            │   └── strings.xml
+            └── values-ja
+            │   └── strings.xml
+            └── values-zh
+                └── strings.xml    
 ```
