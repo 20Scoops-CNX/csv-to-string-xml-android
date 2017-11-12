@@ -1,0 +1,18 @@
+key,en,de,ja,zh,arg
+#Menu,,,,,
+menu_home,Home,Zuhause,ホーム,家,
+menu_trending,Trending,Trend,トレンド,趋势,
+menu_subscriptions,Subscriptions,Abonnements,定期購読,订阅,
+menu_activity,Activity,Aktivität,アクティビティ,活动,
+menu_library,Library,Bibliothek,としょうかん,图书馆,
+#ErrorMessage,,,,,
+email_incorrect,Email incorrect,E-Mail falsch,メールが正しくありません,电邮不正确,
+firstname_incorrect,First name incorrect,Vorname falsch,名義が正しくない,名字不正确,
+lastname_incorrect,Last name incorrect,Nachname falsch,姓が正しくありません,姓氏不正确,
+phone_number_incorrect,Phone number incorrect,Telefonnummer korrekt,電話番号が正しくありません,电话号码不正确,
+#General,,,,,
+email,Email,Email,電子メイル,电子邮件,
+first_name,First name,Vorname,ファーストネーム,名字,
+last_name,Last name,Nachname,苗字,姓,
+phone_number,Phone number,Telefonnummer,電話番号,电话号码,
+total_price,Total Price : {number},Gesamtpreis : {number},合計金額：{number},总价格: {number},number=%d
