@@ -9,7 +9,7 @@ class TestUM(unittest.TestCase):
         self.assertEqual(3*4, 12)
  
     def test_strings_a_3(self):
-        self.assertEqual('a'*3, 'aaa')
+        self.assertEqual('a'*3, 'aaaa')
  
 if __name__ == '__main__':
     unittest.main()
