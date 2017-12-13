@@ -28,7 +28,7 @@ for translation in translations:
 def set_name_value_and_comment(count_loop) :
     for i in range(0, count_loop):
             if "#" in row[0]:
-                comment_message = row[0].replace(" ", "").split("#")[1]
+                comment_message = row[0].split("#")[1].decode("utf-8")
                 comment = etree.Comment("=" * 15 + " "+comment_message + " " +"=" * 15)
                 roots[i].append(comment)
             elif len(str(row[0])) > 1:
