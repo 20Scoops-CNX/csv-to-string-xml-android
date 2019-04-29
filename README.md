@@ -6,13 +6,15 @@ Python scripts converting csv file to Android strings.xml resources multiple lan
 Requirements
 ------------
 
+`python version 3`
+
 To satisfy requirements, run the following command:
 
 `$ pip install lxml`
 
 If you are not using pip in a virtualenv and want to install lxml globally instead, you have to run the above command as admin, e.g. on Linux:
 
-`$ sudo  pip install lxml`
+`$ sudo pip install lxml`
 
 CSV Syntax
 ----
@@ -44,7 +46,7 @@ Usage
     
     Continue enter your path file csv in terminal
     
-    `Path to CSV file : path-file-csv/csv-example.csv`
+    `Path to CSV file : "path-file-csv/csv-example.csv"`
     
     
 Output
