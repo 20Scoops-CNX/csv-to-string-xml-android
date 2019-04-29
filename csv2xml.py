@@ -3,7 +3,7 @@ from lxml import etree
 import sys
 import os
 
-path_file_csv = raw_input("Path to CSV file : ")
+path_file_csv = input("Path to CSV file : ")
 reader = csv.reader(open(path_file_csv, "rb"))
 
 xml_file_header = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n"
